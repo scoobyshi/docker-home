@@ -1,2 +1,7 @@
 # Docker for Homebridge
-Usage: `docker run -d --net=host -v /home/user/.homebridge\:/root/.homebridge imagename`
+## Usage: 
+`docker-compose build`
+`docker-compose up`
+
+## Requirements:
+Make sure to configure your config.json under your home directory in .homebridge, with the appropriate detail.  
