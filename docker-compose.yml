@@ -1,0 +1,7 @@
+version: '2'
+services:
+  homebridge:
+    build: .
+    network_mode: host
+    volumes:
+      - /home/scooby/.homebridge:/root/.homebridge
