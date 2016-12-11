@@ -1,9 +1,10 @@
 #!/bin/bash
 
-dbus-daemon --system
-avahi-daemon -D
+sudo dbus-daemon --system
+sudo avahi-daemon -D
 
-service dbus start
-service avahi-daemon start
+sudo service dbus start
+sudo service avahi-daemon start
 
+echo $HOME
 homebridge

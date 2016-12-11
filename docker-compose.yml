@@ -4,4 +4,4 @@ services:
     build: .
     network_mode: host
     volumes:
-      - /home/scooby/.homebridge:/root/.homebridge
+      - $HOME/.homebridge:/home/app/.homebridge
